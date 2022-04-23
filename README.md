@@ -4,4 +4,4 @@
 
 [![Run on Repl.it](https://repl.it/badge/github/marshall-demars/ICS2O-Unit5-01-HTML)](https://repl.it/github/marshall-demars/ICS2O-Unit5-01-HTML)
 
-This site can be found at: [https://marshall-demars.github.io/ICS20-PWA-Test](https://marshall-demars.github.io/ICS2O-Unit5-01-HTML)
+This site can be found at: [https://marshall-demars.github.io/ICS2O-Unit5-01-HTML](https://marshall-demars.github.io/ICS2O-Unit5-01-HTML)
