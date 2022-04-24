@@ -33,19 +33,16 @@
       <main class = "mdl-layout__content">
         <img src="./images/dice.svg" alt="sphere" width="20%" height="auto" />
         <!-- basic text -->
-        <p>Guess the number between 1 to 6<br>Use the slider to choose your number</p>
-        <div id="slider">
-        </div>  
+        <p>Guess the number between 1 to 6<br>Use the slider to choose your number</p> 
         <!-- Default Slider -->
         <label>
           Slider's Value
           <input id = "slider" class="mdl-slider mdl-js-slider" type="range"
           min="0" max="6" value="1" tabindex="0"
-          onchange = "updateSliderValue(this.value)">
         </label>
         <br>
         <!-- Colored raised button -->
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="myButtonClicked()">
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="check()">
           Click to guess
         </button>
         <div id="answers"></div>
