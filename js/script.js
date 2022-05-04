@@ -13,7 +13,7 @@ if (navigator.serviceWorker) {
   })
 }
 
-;("use strict")
+"use strict"
 
 /**
  * This function calculates random number and checks if you guessed it correctly
@@ -23,7 +23,7 @@ function check() {
   var guess = parseFloat(document.getElementById("slider").value)
 
   // process and output
-  var random = Math.floor(Math.random() * 6) + 1
+  const random = Math.floor(Math.random() * 6) + 1
   if (guess == random) {
     document.getElementById("answers").innerHTML = "You are correct!"
   }
